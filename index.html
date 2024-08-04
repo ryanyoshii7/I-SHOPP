@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Mon Produit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue à I-SHOP</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="features.html">Fonctionnalités</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src= " /Users/macbook/Desktop/panier d'achat/E-commerce App- Social media designs.jpg" alt="Image du produit">
+            <h2>Découvrez les caractéristiques innovantes</h2>
+            <p>Notre produit vous offre des solutions modernes pour vos besoins quotidiens. Explorez maintenant !</p>
+            <a href="features.html" class="btn">Voir les Fonctionnalités</a>
+        </section>
+
+        <section class="overview">
+            <h2>Aperçu du Produit</h2>
+            <p>Notre produit est conçu pour améliorer votre vie avec des fonctionnalités exceptionnelles et une performance inégalée.</p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contactez-Nous</h2>
+            <button class="btn" id="contact-btn">Formulaire de Contact</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Produit. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Formulaire de contact modale -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Contactez-Nous</h2>
+            <form id="contact-form">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
